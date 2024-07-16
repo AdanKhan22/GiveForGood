@@ -1,0 +1,16 @@
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 25px;
+}
+.sec1images{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.sec1images div {
+    display: flex;
+    flex-direction: row;
+}

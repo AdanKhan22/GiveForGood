@@ -1,0 +1,9 @@
+.maintitle{
+ display: flex;
+position: relative;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+gap: 500px;
+margin :10px
+}

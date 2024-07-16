@@ -1,0 +1,19 @@
+.section2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin:25px
+
+}
+
+.sec2cards{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.wrapper-sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
