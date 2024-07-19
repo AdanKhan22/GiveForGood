@@ -2,8 +2,23 @@
  display: flex;
 position: relative;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 gap: 500px;
 margin :10px
+}
+
+.maintitle > div:first-child {
+    position: relative;
+    left: 4%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  line-height: 0.5; /* Optional: Adjust line-height if needed */
+  font-size: 2rem;
+}
+
+.maintitle p , button{
+    font-size: 19px;
+    position: relative;
+    right: 18%;
 }

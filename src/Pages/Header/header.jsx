@@ -15,13 +15,13 @@ export default function header() {
     <div>
       <header>
         <div className="logo">
-          <p>This is a logo</p>
+          <img src="../../../logo.png" alt="This is a logo"></img>
         </div>
 
         <div className="menuBar">
           <Menubar>
             <MenubarMenu>
-              <MenubarTrigger>File</MenubarTrigger>
+              <MenubarTrigger>Home</MenubarTrigger>
               <MenubarContent>
                 <MenubarItem>
                   New Tab <MenubarShortcut>⌘T</MenubarShortcut>
@@ -34,7 +34,7 @@ export default function header() {
               </MenubarContent>
             </MenubarMenu>
             <MenubarMenu>
-              <MenubarTrigger>File</MenubarTrigger>
+              <MenubarTrigger>Campaign</MenubarTrigger>
               <MenubarContent>
                 <MenubarItem>
                   New Tab <MenubarShortcut>⌘T</MenubarShortcut>
@@ -47,7 +47,7 @@ export default function header() {
               </MenubarContent>
             </MenubarMenu>
             <MenubarMenu>
-              <MenubarTrigger>File</MenubarTrigger>
+              <MenubarTrigger>About</MenubarTrigger>
               <MenubarContent>
                 <MenubarItem>
                   New Tab <MenubarShortcut>⌘T</MenubarShortcut>
@@ -60,7 +60,7 @@ export default function header() {
               </MenubarContent>
             </MenubarMenu>
             <MenubarMenu>
-              <MenubarTrigger>File</MenubarTrigger>
+              <MenubarTrigger>Contact</MenubarTrigger>
               <MenubarContent>
                 <MenubarItem>
                   New Tab <MenubarShortcut>⌘T</MenubarShortcut>

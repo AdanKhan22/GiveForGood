@@ -7,16 +7,26 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 gap: 500px;
-margin :10px
+margin :20px
 
 }
 
 .logo{
-display:flex;
-   margin: 10px;
+ position: relative;
+ left: 7%;
+
 }
 
+.logo img{
+   
+   display:inline;
+   width: 80px;
+   height: 80px;
+    }
+
 .menuBar{
+    position: relative;
+    right: 35%;
     margin: 10px;
 
 }
